@@ -12,6 +12,114 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Jambo\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\converter-gson-2.1.0_6c2d2aba1bc117f278860bc0e88589067372e94e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.android\build-cache\ea4a30e8d77db5072b6e7eb9c1a8e84b7b1bc0ba\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1d5d66192b53febfc212a5e2634405138b4675d9">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\classes_1d97ff71fde1183a055fa48bb8a12e4723ad95ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.1.0\814258103cf26a15fcc26ecce35f5b7d24b73f8\support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\support-annotations-26.1.0_0076b32e0a58f0c320395fe37f7496ec6bf8de08.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\gson-2.7_1fb6f468f7e1639405490774fbf72b19f3d43d95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.1.50\2bbd56ca7884b4f70db0f1d655d32ee6f205eaa5\kotlin-stdlib-1.1.50.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2bbd56ca7884b4f70db0f1d655d32ee6f205eaa5">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\kotlin-stdlib-1.1.50_5d49512de05dc39c3918f514c98b754621c01611.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.gradle\caches\modules-2\files-2.1\com.android.support.constraint\constraint-layout-solver\1.1.3\bde0667d7414c16ed62d3cfe993cff7f9d732373\constraint-layout-solver-1.1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="bde0667d7414c16ed62d3cfe993cff7f9d732373">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.1.3_b18e8f840e227bdac1d17d54826d137c4d449744.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.11.0\840897fcd7223a8143f1d9b6f69714e7be34fd50\okio-1.11.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\okio-1.11.0_d4b5e925b5f67bde2b706e6a0f10e935129b1e95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.android\build-cache\3a03599372e875b7b6ba1a86b7fc02b739e677d8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\classes_9133f2032f68c1ca61acd4d6d5919bacc90d6d44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.android\build-cache\813ee74ba9ec31d14fb423b1cb7a9865c0d0c923\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\classes_58f1c69c668095a4e4deef928fa05ca9c9464025.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.android\build-cache\a62097dd89f5fd2d8ae8815145a73bd1e7539ad4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\classes_b18a9c20f582b78f82ed62e0df2c5017b6b2f052.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.android\build-cache\e1ac640c37b2cb4add21e40f70862cf527cd4893\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b12cd9c87c3dfb012a911b6e38d2444ed0a65e1f">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\classes_3a8d6be3b7003e940bc91165fb24893aa57ea9e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.5.0\4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83\okhttp-3.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\okhttp-3.5.0_16221c5fad1df59455243ef46abca6dbe2d7ee5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Jambo\.android\build-cache\038c5893a1263168c229b96b2c983f1c8c6b8b91\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -36,15 +144,6 @@
         revision="26.0.1"
         sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
         <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\common-1.0.0_9f83375f55948601ee87eeec035fcf4dc7fca798.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Jambo\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.1.0\814258103cf26a15fcc26ecce35f5b7d24b73f8\support-annotations-26.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
-        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\support-annotations-26.1.0_0076b32e0a58f0c320395fe37f7496ec6bf8de08.jar" />
     </item>
     <item
         is-multidex="false"
@@ -75,15 +174,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Jambo\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.1.50\2bbd56ca7884b4f70db0f1d655d32ee6f205eaa5\kotlin-stdlib-1.1.50.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="2bbd56ca7884b4f70db0f1d655d32ee6f205eaa5">
-        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\kotlin-stdlib-1.1.50_5d49512de05dc39c3918f514c98b754621c01611.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Jambo\.android\build-cache\0d6a28ff89f1fbcdebe54303f45826375a8780a3\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -99,15 +189,6 @@
         revision="26.0.1"
         sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
         <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\classes_e793fe1ee8da6c50f9e55452ac287f2ec37b918e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Jambo\.gradle\caches\modules-2\files-2.1\com.android.support.constraint\constraint-layout-solver\1.1.3\bde0667d7414c16ed62d3cfe993cff7f9d732373\constraint-layout-solver-1.1.3.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="bde0667d7414c16ed62d3cfe993cff7f9d732373">
-        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.1.3_b18e8f840e227bdac1d17d54826d137c4d449744.jar" />
     </item>
     <item
         is-multidex="false"
@@ -129,21 +210,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Jambo\.android\build-cache\3a03599372e875b7b6ba1a86b7fc02b739e677d8\output\jars\classes.jar"
+        jar="C:\Users\Jambo\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
-        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\classes_9133f2032f68c1ca61acd4d6d5919bacc90d6d44.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Jambo\.android\build-cache\bb9b39a50d8b681862d1a187c8da472bfeed3591\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\classes_6be46c8e1ae68355fb9268384d14481e1b01cff2.jar" />
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\retrofit-2.1.0_6d7038eb2ec0018c7603b258b4a21477474aac5b.jar" />
     </item>
     <item
         is-multidex="false"
@@ -165,30 +237,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Jambo\.android\build-cache\813ee74ba9ec31d14fb423b1cb7a9865c0d0c923\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
-        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\classes_58f1c69c668095a4e4deef928fa05ca9c9464025.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Jambo\.android\build-cache\5025bb0e1d4a9d68af502cd7a29ad70005998edd\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
         <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\classes_06e1ff39272a61936df767efa3faf27e34561ec7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Jambo\.android\build-cache\a62097dd89f5fd2d8ae8815145a73bd1e7539ad4\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
-        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\classes_b18a9c20f582b78f82ed62e0df2c5017b6b2f052.jar" />
     </item>
     <item
         is-multidex="false"

@@ -18,11 +18,44 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Firebase" />
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe5c4fb6-0d23-47c7-b6ff-c3c919428084" name="Default Changelist" comment="" />
+    <list default="true" id="fe5c4fb6-0d23-47c7-b6ff-c3c919428084" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_26_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_5_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_11_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__pub_devrel_easypermissions_0_4_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/speakin/recorder/fileview/FileViewActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/file_view_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_24_2_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Recorder-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Recorder-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/speakin/recorder/ui/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/speakin/recorder/ui/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin-build/artifact-difference.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin-build/artifact-difference.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin-build/artifact-difference.tab.values" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin-build/artifact-difference.tab.values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin-build/artifact-difference.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin-build/artifact-difference.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin-build/artifact-difference.tab.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin-build/artifact-difference.tab.values.s" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +77,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
+        <option value="layoutResourceFile" />
         <option value="valueResourceFile" />
       </list>
     </option>
@@ -52,7 +87,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fwnqbNGbtEhS23xZwHP3KH7Q9D" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -63,9 +100,21 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-08-13T10:16:06.805Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="show.do.not.copy.http.proxy.settings.to.gradle" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\src\main\res\layout" />
+      <recent name="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\src\main\res\values\dimens" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.speakin.recorder.fileview" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\src\main\res\values\dimens" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -144,34 +193,42 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="175" y="0" key="#Inspections" timestamp="1597328841426">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="175" y="0" key="#Inspections/0.0.1366.738@0.0.1366.738" timestamp="1597328841426" />
     <state x="368" y="0" key="#Recorder-app" timestamp="1597150975791">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="368" y="0" key="#Recorder-app/0.0.1366.738@0.0.1366.738" timestamp="1597150975791" />
-    <state x="444" y="11" key="#com.intellij.ide.util.MemberChooser" timestamp="1597304070933">
+    <state x="444" y="11" key="#com.intellij.ide.util.MemberChooser" timestamp="1597327940001">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="444" y="11" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1597304070933" />
-    <state x="263" y="118" key="AndroidCreateResourceFileDialog" timestamp="1597302733741">
+    <state x="444" y="11" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1597327940001" />
+    <state x="263" y="118" key="AndroidCreateResourceFileDialog" timestamp="1597328261013">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="263" y="118" key="AndroidCreateResourceFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1597302733741" />
-    <state width="1314" height="107" key="GridCell.Tab.0.bottom" timestamp="1597311036257">
+    <state x="263" y="118" key="AndroidCreateResourceFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1597328261013" />
+    <state x="523" y="163" key="AndroidCreateXmlResourceDialog" timestamp="1597328867385">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1314" height="107" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1597311036257" />
-    <state width="1314" height="107" key="GridCell.Tab.0.center" timestamp="1597311036256">
+    <state x="523" y="163" key="AndroidCreateXmlResourceDialog/0.0.1366.738@0.0.1366.738" timestamp="1597328867385" />
+    <state width="1314" height="185" key="GridCell.Tab.0.bottom" timestamp="1597332243087">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1314" height="107" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1597311036256" />
-    <state width="1314" height="107" key="GridCell.Tab.0.left" timestamp="1597311036256">
+    <state width="1314" height="185" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1597332243087" />
+    <state width="1314" height="185" key="GridCell.Tab.0.center" timestamp="1597332243087">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1314" height="107" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1597311036256" />
-    <state width="1314" height="107" key="GridCell.Tab.0.right" timestamp="1597311036256">
+    <state width="1314" height="185" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1597332243087" />
+    <state width="1314" height="185" key="GridCell.Tab.0.left" timestamp="1597332243087">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1314" height="107" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1597311036256" />
+    <state width="1314" height="185" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1597332243087" />
+    <state width="1314" height="185" key="GridCell.Tab.0.right" timestamp="1597332243087">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1314" height="185" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1597332243087" />
     <state x="105" y="0" key="SettingsEditor" timestamp="1597313726886">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -180,10 +237,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="92" y="92" width="1182" height="554" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1366.738@0.0.1366.738" timestamp="1597150984799" />
-    <state x="271" y="153" key="com.intellij.ide.util.TipDialog" timestamp="1597302430748">
+    <state x="271" y="153" key="com.intellij.ide.util.TipDialog" timestamp="1597327318822">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="271" y="153" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1597302430748" />
+    <state x="271" y="153" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1597327318822" />
     <state x="432" y="182" key="edit.logcat.filter.dialog.dimensions" timestamp="1597286820143">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -192,6 +249,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="289" y="44" width="787" height="650" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1597306734946" />
+    <state x="255" y="156" key="run.anything.popup" timestamp="1597329000271">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="255" y="156" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1597329000271" />
     <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1597221007039">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

@@ -31,8 +31,14 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
     compile 'com.nononsenseapps:filepicker:4.1.0'
+    compile 'pub.devrel:easypermissions:0.4.3'
     compile 'com.koushikdutta.async:androidasync:2.2.1'
     compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'com.android.support:recyclerview-v7:26.1.0'
+    compile 'com.squareup.okio:okio:1.11.0'
+    compile 'com.squareup.okhttp3:okhttp:3.5.0'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
 }
 repositories {
     mavenCentral()

@@ -1,5 +1,8 @@
 package com.speakin.recorder.ui;
 
+import android.Manifest;
+import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -14,11 +17,14 @@ import android.widget.Toast;
 
 import com.speakin.recorder.R;
 import com.speakin.recorder.RecorderApp;
+import com.speakin.recorder.fileview.FileViewActivity;
 import com.speakin.recorder.module.control.MasterControlManager;
 import com.speakin.recorder.module.control.SlaveControlManager;
 import com.speakin.recorder.utils.IpUtil;
 
 import org.json.JSONObject;
+
+import pub.devrel.easypermissions.EasyPermissions;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -27,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView textView;
     private TextView mTVDisplayInfo;
     private EditText mETInputItemNo;
+    private String mReceviedMessage = null;
 
     private MasterControlManager masterControlManager;
     private SlaveControlManager slaveControlManager;
@@ -38,8 +45,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initData();
+        initPermission();
         initView();
         refreshIP();
+    }
+
+    private void initPermission() {
+
+        String[] perms = new String[]{Manifest.permission.READ_EXTERNAL_STORAGE,
+                Manifest.permission.WRITE_EXTERNAL_STORAGE};
+        if (!EasyPermissions.hasPermissions(MainActivity.this, perms)) {
+            EasyPermissions.requestPermissions(MainActivity.this, "需要访问手机存储权限！", 10086, perms);
+        }
     }
 
     private void initData() {
@@ -66,6 +83,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onReceiveMessage(String message) {
                 Toast.makeText(MainActivity.this,"receive mes:"+message,Toast.LENGTH_SHORT).show();
+                mReceviedMessage = message;
                 mTVDisplayInfo.setText("message: " + message);
 
             }
@@ -118,6 +136,16 @@ public class MainActivity extends AppCompatActivity {
 Log.d("main","ismaster = true");
             }
         });
+
+//        打开fileView
+        Button mOpenFVBtn = findViewById(R.id.mOpenFVBtn);
+        mOpenFVBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openAnotherActivity(MainActivity.this,FileViewActivity.class,"filepath",mReceviedMessage);
+            }
+        });
+
 
 		/*
 		从机模式
@@ -256,6 +284,11 @@ Log.d("main","is empty");
 
     }
 
+    public void openAnotherActivity(Context context1, Class c,String tag,String message){
+        Intent intent = new Intent(context1, c);
+        intent.putExtra(tag,"test send msg");
+        startActivity(intent);
+    }
 
 	/*
 	退出则停止	

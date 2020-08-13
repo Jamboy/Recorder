@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: pub.devrel:easypermissions:0.4.3@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/ea4a30e8d77db5072b6e7eb9c1a8e84b7b1bc0ba/output/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.android/build-cache/ea4a30e8d77db5072b6e7eb9c1a8e84b7b1bc0ba/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/ea4a30e8d77db5072b6e7eb9c1a8e84b7b1bc0ba/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/pub.devrel/easypermissions/0.4.3/437bfe57256cbb6d4bd71235fe855d5adbe4eaa1/easypermissions-0.4.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
