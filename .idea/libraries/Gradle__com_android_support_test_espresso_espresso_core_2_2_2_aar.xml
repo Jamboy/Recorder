@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.support.test.espresso:espresso-core:2.2.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/e7af092ece0a2b0ff64a0ab91697fe27f4b30c21/output/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.android/build-cache/e7af092ece0a2b0ff64a0ab91697fe27f4b30c21/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/e7af092ece0a2b0ff64a0ab91697fe27f4b30c21/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

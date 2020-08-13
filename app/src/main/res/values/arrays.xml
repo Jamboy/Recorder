@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="teamsId">
+        <item>Team1</item>
+        <item>Team2</item>
+        <item>Team3</item>
+    </string-array>
+
+    <string-array name="itemNo">
+        <item>010</item>
+        <item>020</item>
+        <item>030</item>
+        <item>040</item>
+        <item>050</item>
+    </string-array>
+</resources>

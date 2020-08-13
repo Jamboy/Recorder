@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.android\build-cache\28b87bf303e43091884cf5daea9681694009aef4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="59d5f1dddcd9a47040b5933df65d33dedd8ecea3">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\classes_a7ec0e5a98ebe7914275a36f3cf6d04822a8276a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.android\build-cache\038c5893a1263168c229b96b2c983f1c8c6b8b91\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\classes_e8316555fc6abcec9b84dc451696f8d868d68a92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.android\build-cache\1792bd619469d8a2503aa5cee2173b5d59694e53\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\classes_3ca80b55f7cb44aa0d83f1fbca8ed813e0c09f92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\common-1.0.0_9f83375f55948601ee87eeec035fcf4dc7fca798.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.1.0\814258103cf26a15fcc26ecce35f5b7d24b73f8\support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\support-annotations-26.1.0_0076b32e0a58f0c320395fe37f7496ec6bf8de08.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.android\build-cache\a654c11e33ef9b3e6060df06b7d91df5b02d5168\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\classes_67bbc6ebbd253b0076d41285ae171a65b243848a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.android\build-cache\42258e9c0bb059ebaf41a4b0a082d48e4ec7ad8c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b15c6ded887ad967e20bb335c1a121b253c04dce">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\classes_90c1085942e405fa6bcb4ce42e9824779576ee45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.android\build-cache\180ccb18b2c7f4279d145a5428a97c08190bc803\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\classes_a20e82492016417228105904d28ec33d1266847b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.1.50\2bbd56ca7884b4f70db0f1d655d32ee6f205eaa5\kotlin-stdlib-1.1.50.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2bbd56ca7884b4f70db0f1d655d32ee6f205eaa5">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\kotlin-stdlib-1.1.50_5d49512de05dc39c3918f514c98b754621c01611.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.android\build-cache\0d6a28ff89f1fbcdebe54303f45826375a8780a3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\classes_4085bb1740ff813b58a4c948da7a8017593b87f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.android\build-cache\ecee15f5244b688110ede5c53646b81743a7feac\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\classes_e793fe1ee8da6c50f9e55452ac287f2ec37b918e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.gradle\caches\modules-2\files-2.1\com.android.support.constraint\constraint-layout-solver\1.1.3\bde0667d7414c16ed62d3cfe993cff7f9d732373\constraint-layout-solver-1.1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="bde0667d7414c16ed62d3cfe993cff7f9d732373">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.1.3_b18e8f840e227bdac1d17d54826d137c4d449744.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.android\build-cache\6494270b85bb29a09afac3231f4d9aeb22124f47\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0772eec11be9e3803736882ae4bec4078986910e">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\classes_877b5b1f4d1b0b02456e63c3658c276caf5a5813.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.0.0\ddd99896e9569eaababbe81b35d80e1b91c4ad85\eventbus-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\eventbus-3.0.0_c77ea3abe409843db37766d8c7e26bf9d8b09352.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.android\build-cache\3a03599372e875b7b6ba1a86b7fc02b739e677d8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\classes_9133f2032f68c1ca61acd4d6d5919bacc90d6d44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.android\build-cache\bb9b39a50d8b681862d1a187c8da472bfeed3591\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\classes_6be46c8e1ae68355fb9268384d14481e1b01cff2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\13.0\919f0dfe192fb4e063e7dacadee7f8bb9a2672a9\annotations-13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="919f0dfe192fb4e063e7dacadee7f8bb9a2672a9">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\annotations-13.0_f702116af61753be1e98ee3f8752cdd9e32fc039.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jre7\1.1.50\782cda128253a8a1843d26b00d86e7c44fbc6246\kotlin-stdlib-jre7-1.1.50.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="782cda128253a8a1843d26b00d86e7c44fbc6246">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\kotlin-stdlib-jre7-1.1.50_011b222f3910bca4c438ebd29621e6f3ed541ce4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.android\build-cache\813ee74ba9ec31d14fb423b1cb7a9865c0d0c923\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\classes_58f1c69c668095a4e4deef928fa05ca9c9464025.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.android\build-cache\5025bb0e1d4a9d68af502cd7a29ad70005998edd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\classes_06e1ff39272a61936df767efa3faf27e34561ec7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.android\build-cache\a62097dd89f5fd2d8ae8815145a73bd1e7539ad4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\classes_b18a9c20f582b78f82ed62e0df2c5017b6b2f052.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jambo\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\common-1.0.0_b6d9fee413172b89a695d985f7e983367e3ba4f7.jar" />
+    </item>
+
+</items>
