@@ -16,7 +16,8 @@ import org.json.JSONObject;
  */
 
 public class SlaveControlManager implements SlaveSearchManager.SlaveSearchManagerCallback, SlaveWebSocketManager.SlaveSocketManagerCallback{
-    private static final String TAG = SlaveControlManager.class.getSimpleName();
+//    private static final String TAG = SlaveControlManager.class.getSimpleName();
+    private static final String TAG = "SlaveControlManager";
 
     public interface SlaveControlManagerCallback {
         void onFoundMaster(String masterIp, JSONObject masterInfo);
@@ -56,6 +57,7 @@ public class SlaveControlManager implements SlaveSearchManager.SlaveSearchManage
 
     public void sendFile(String filePath) {
         if (socketManager != null) {
+    Log.d(TAG,"从机已调用socket.send");
             socketManager.sendFile(filePath);
         }
     }

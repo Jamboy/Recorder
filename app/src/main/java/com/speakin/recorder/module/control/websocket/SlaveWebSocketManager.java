@@ -30,6 +30,7 @@ public class SlaveWebSocketManager {
         void onMasterConnected(WebSocket socket, Exception ex);
         void onMasterDisconnect(WebSocket socket, Exception ex);
         void onReceiveMessage(String message);
+        
     }
 
     private SlaveSocketManagerCallback slaveSocketManagerCallback;
@@ -112,9 +113,15 @@ public class SlaveWebSocketManager {
         return true;
     }
 
-    private static final int BUFFER_LEN = 8*1024;
+    private static final int BUFFER_LEN = 1024*8;//1m
     public void sendFile(final String filePath) {
-        if (filePath == null || !(new File(filePath).exists())) return;
+// Log.d(TAG, "before return send file " +filePath);
+//        if (filePath == null || (new File(filePath).exists())) {
+//            Log.d(TAG, "in return send file " +filePath);
+//            return;
+//        }
+//        Log.d(TAG, "after return send file " +filePath);
+
         new Thread(new Runnable() {
             @Override
             public void run() {
@@ -122,8 +129,12 @@ public class SlaveWebSocketManager {
                 long start = System.currentTimeMillis();
                 try {
                     File file = new File(filePath);
-Log.d(TAG, "file len=" + file.length());
+Log.d(TAG, "file len=:" + file.length());
+Log.d(TAG, "canRead:" + file.canRead());
+Log.d(TAG,"name:"+file.getName());
+//根据路径读文件并通过websocket发送二进制
                     FileInputStream inputStream = new FileInputStream(file);
+//Log.d(TAG,"input_name"+inputStream
                     ByteArrayOutputStream baos = new ByteArrayOutputStream();
                     byte[] buffer = new byte[BUFFER_LEN];
                     int read ;

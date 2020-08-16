@@ -225,7 +225,8 @@ public class FileHandlerSocket extends Thread {
 				dos.writeInt(latestEntity.time);
 				dos.flush();
 
-				int bufferSize = 20480; // 20K
+//				int bufferSize = 20480; // 20K
+				int bufferSize = 1024*1024*1;//1m
 				buf = new byte[bufferSize];
 				int read = 0;
 				// 将文件输入流 循环 读入 Socket的输出流中

@@ -147,6 +147,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\libs\tbs_sdk_thirdapp_v3.2.0.1104_43200_sharewithdownload_withfilereader_withoutGame_obfs_20170609_115346.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e58a5f3e98fddc1752eb23c37db5e4b8fc174fe3">
+        <dex dex="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\build\intermediates\pre-dexed\debug\tbs_sdk_thirdapp_v3.2.0.1104_43200_sharewithdownload_withfilereader_withoutGame_obfs_20170609_115346_1c54f2d1275fb975438452a0622b31847844a363.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Jambo\.android\build-cache\a654c11e33ef9b3e6060df06b7d91df5b02d5168\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"

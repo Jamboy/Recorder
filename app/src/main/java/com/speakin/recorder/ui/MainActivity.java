@@ -17,7 +17,9 @@ import android.widget.Toast;
 
 import com.speakin.recorder.R;
 import com.speakin.recorder.RecorderApp;
+import com.speakin.recorder.fileview.FileDisplayActivity;
 import com.speakin.recorder.fileview.FileViewActivity;
+import com.speakin.recorder.fileview.TLog;
 import com.speakin.recorder.module.control.MasterControlManager;
 import com.speakin.recorder.module.control.SlaveControlManager;
 import com.speakin.recorder.utils.IpUtil;
@@ -32,9 +34,9 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView textView;
     private TextView mTVDisplayInfo;
-    private EditText mETInputItemNo;
+    private EditText mETInputFileName;
     private String mReceviedMessage = null;
-
+    private String mMasterQRCode = "test";
     private MasterControlManager masterControlManager;
     private SlaveControlManager slaveControlManager;
     private boolean isMaster = false;  //是否为主机
@@ -64,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
         masterControlManager = new MasterControlManager(); //主机控制
         slaveControlManager = new SlaveControlManager();	//丛机控制
 
+//      从机控制
         slaveControlManager.setControlManagerCallback(new SlaveControlManager.SlaveControlManagerCallback() {
             @Override
             public void onFoundMaster(String masterIp, JSONObject masterInfo) {
@@ -85,10 +88,16 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this,"receive mes:"+message,Toast.LENGTH_SHORT).show();
                 mReceviedMessage = message;
                 mTVDisplayInfo.setText("message: " + message);
+//              收到主机filename,打开相应文件
+//                openAnotherActivity(MainActivity.this,FileViewActivity.class,"filepath",mReceviedMessage);
+                String openFilePath = "/storage/emulated/0/Download/com.jambo.download/" + mReceviedMessage+".docx";
+                TLog.d("Main",openFilePath);
+                FileDisplayActivity.show(MainActivity.this, openFilePath);
 
             }
         });
 
+//      主机控制
         masterControlManager.setControlManagerCallback(new MasterControlManager.MasterControlManagerCallback() {
             @Override
             public void onServerError(Exception ex) {
@@ -119,6 +128,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initView() {
+
+        mTVDisplayInfo = (TextView) findViewById(R.id.text2);
+        mETInputFileName = (EditText) findViewById(R.id.mETInputFileName);
+
 		/*
 		主机模式，点击启动，设置is true
 		*/
@@ -181,16 +194,21 @@ Log.d("main","ismaster = true");
 		判断isMaster 区分发送
 		*/
 
-        mTVDisplayInfo = (TextView) findViewById(R.id.text2);
-        mETInputItemNo = (EditText) findViewById(R.id.mETInputItemNo);
 
         findViewById(R.id.sendBtn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (isMaster) {
-                    masterControlManager.send("Hello, I am client ：" + getETInputItemNo() + System.currentTimeMillis());
+                    if (getETInputFileName().toString() == ""){
+                        Toast.makeText(MainActivity.this,"please input filename",Toast.LENGTH_SHORT).show();
+                        return;
+                    }else {
+                        String inputFileName = getETInputFileName()+"-"+mApplication.getItemNo();
+                        masterControlManager.send(inputFileName);
+                        Toast.makeText(MainActivity.this,inputFileName + "已发送",Toast.LENGTH_SHORT).show();
+                    }
                 } else {
-                    slaveControlManager.send("Hello, I am slave ："  + getETInputItemNo() + System.currentTimeMillis());
+                    slaveControlManager.send("Hello, I am slave ："  + getETInputFileName() + System.currentTimeMillis());
                 }
             }
         });
@@ -218,7 +236,7 @@ Log.d("main","ismaster = true");
             @Override
             public void onClick(View view) {
                 Toast.makeText(MainActivity.this,"click send file", Toast.LENGTH_SHORT).show();
-                String filepath = "/storage/emulated/0/Download/1996-music.wmv";
+                String filepath = "/storage/emulated/0/Download/test.wav";
                 slaveControlManager.sendFile(filepath);
                 Log.d("main", "after"+filepath);
             }
@@ -274,19 +292,19 @@ Log.d("main",mApplication.getItemNo() + "@" + mApplication.getTeamID());
     /*
 
     */
-    private String getETInputItemNo(){
-        if (TextUtils.isEmpty(mETInputItemNo.getText().toString().trim())){
+    private String getETInputFileName(){
+        if (TextUtils.isEmpty(mETInputFileName.getText().toString().trim())){
 Log.d("main","is empty");
             return "";
         }else {
-            return mETInputItemNo.getText().toString().trim();
+            return mETInputFileName.getText().toString().trim();
         }
 
     }
 
     public void openAnotherActivity(Context context1, Class c,String tag,String message){
         Intent intent = new Intent(context1, c);
-        intent.putExtra(tag,"test send msg");
+        intent.putExtra(tag,"010");
         startActivity(intent);
     }
 

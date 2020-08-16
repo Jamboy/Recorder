@@ -5,8 +5,24 @@
       <filter>
         <option name="logLevel" value="verbose" />
         <option name="logMessagePattern" value="" />
-        <option name="logTagPattern" value="main" />
-        <option name="name" value="main" />
+        <option name="logTagPattern" value="SlaveWebSocketManager" />
+        <option name="name" value="SlaveWebSocketManager" />
+        <option name="packageNamePattern" value="" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="SlaveControlManager" />
+        <option name="name" value="SlaveControlManager" />
+        <option name="packageNamePattern" value="" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="MasterWebSocketManager" />
+        <option name="name" value="MasterWebSocketManager" />
         <option name="packageNamePattern" value="" />
         <option name="pid" value="" />
       </filter>
@@ -18,22 +34,90 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Firebase" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="SlaveWebSocketManager" />
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe5c4fb6-0d23-47c7-b6ff-c3c919428084" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_26_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_7_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_5_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_11_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__pub_devrel_easypermissions_0_4_3_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/speakin/recorder/fileview/FileViewActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/file_view_activity.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/tbs_sdk_thirdapp_v3.2.0.1104_43200_sharewithdownload_withfilereader_withoutGame_obfs_20170609_115346.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/speakin/recorder/fileview/ExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/speakin/recorder/fileview/FileDisplayActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/speakin/recorder/fileview/LoadFileApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/speakin/recorder/fileview/LoadFileModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/speakin/recorder/fileview/Md5Tool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/speakin/recorder/fileview/SuperFileView2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/speakin/recorder/fileview/TLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/liblbs.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activitiy_file_display.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-09-35-52-011.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-09-58-47-791.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-10-12-32-653.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-10-15-07-531.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-13-14-10-770.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-13-24-44-147.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-13-26-03-003.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-13-47-13-998.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-13-50-24-816.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-14-00-31-442.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-16-51-21-491.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-17-41-19-599.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-17-45-10-495.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-17-48-40-531.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-17-49-06-433.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-18-11-20-143.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-20-31-28-807.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-20-45-01-123.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-20-45-33-302.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-20-45-44-719.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-21-02-29-361.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-21-05-45-174.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-21-07-08-007.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-21-07-47-996.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-21-07-56-404.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-21-08-37-529.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-21-08-54-191.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-21-09-36-974.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-21-10-12-532.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-21-12-24-392.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-21-12-51-614.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-21-13-54-886.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-21-43-36-046.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-21-45-08-239.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-21-45-41-570.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-21-51-53-038.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-21-53-28-133.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-14-21-53-44-584.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-15-09-41-44-779.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-15-10-54-04-406.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-15-11-36-05-431.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-15-11-36-33-204.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-15-11-37-16-222.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-15-11-55-50-687.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-15-11-56-43-034.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-15-12-01-28-183.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-15-13-59-39-430.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-15-14-25-26-599.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-15-14-26-28-105.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-15-14-39-48-130.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-15-14-44-49-942.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-15-15-33-09-458.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-15-15-59-49-444.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-15-16-08-12-444.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-15-16-08-35-406.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-15-16-11-22-624.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-15-16-12-30-629.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-15-16-13-47-088.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-15-16-51-15-598.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-15-17-00-49-208.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-15-17-01-10-370.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-15-17-03-37-823.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-15-17-47-49-629.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-15-22-44-13-134.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-16-10-07-48-190.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-16-10-20-22-736.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-16-10-20-45-733.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-08-16-10-58-03-219.rawproto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterDir="false" />
@@ -43,13 +127,19 @@
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_24_2_1_aar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/Recorder-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Recorder-app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/speakin/recorder/RecorderApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/speakin/recorder/RecorderApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/speakin/recorder/fileview/FileViewActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/speakin/recorder/fileview/FileViewActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/speakin/recorder/module/control/MasterControlManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/speakin/recorder/module/control/MasterControlManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/speakin/recorder/module/control/SlaveControlManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/speakin/recorder/module/control/SlaveControlManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/speakin/recorder/module/control/socket/handle/FileHandlerSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/speakin/recorder/module/control/socket/handle/FileHandlerSocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/speakin/recorder/module/control/websocket/SlaveWebSocketManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/speakin/recorder/module/control/websocket/SlaveWebSocketManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/speakin/recorder/ui/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/speakin/recorder/ui/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin-build/artifact-difference.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin-build/artifact-difference.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin-build/artifact-difference.tab.values" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin-build/artifact-difference.tab.values" afterDir="false" />
@@ -61,7 +151,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="573c0c24" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="192.168.0.102:5555" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -70,16 +160,21 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="valueResourceFile" />
         <option value="Class" />
         <option value="layoutResourceFile" />
-        <option value="valueResourceFile" />
       </list>
     </option>
   </component>
@@ -96,23 +191,28 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="573c0c24" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-08-13T10:16:06.805Z" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="192.168.0.102:5555" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-08-16T02:54:37.665Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ToolWindowLogcat.ShowToolbar" value="false" />
+    <property name="adb_path" value="G:\AndroidSdk\sdk\platform-tools\adb.exe" />
+    <property name="last_opened_file_path" value="G:/传输测试/test.wav" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.do.not.copy.http.proxy.settings.to.gradle" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\src\main\res\layout" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\src\main\res\values\dimens" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.speakin.recorder.fileview" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\src\main\jniLibs\armeabi" />
+      <recent name="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\libs" />
+      <recent name="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\src\main\res\layout" />
       <recent name="G:\Jambo\AndroidStudioProjects\dz_demo\Recorder\app\src\main\res\values\dimens" />
     </key>
   </component>
@@ -192,59 +292,86 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="175" y="0" key="#Inspections" timestamp="1597328841426">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="175" y="0" key="#Inspections/0.0.1366.738@0.0.1366.738" timestamp="1597328841426" />
-    <state x="368" y="0" key="#Recorder-app" timestamp="1597150975791">
+    <state x="175" y="0" key="#Notifications" timestamp="1597463954691">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="368" y="0" key="#Recorder-app/0.0.1366.738@0.0.1366.738" timestamp="1597150975791" />
-    <state x="444" y="11" key="#com.intellij.ide.util.MemberChooser" timestamp="1597327940001">
+    <state x="175" y="0" key="#Notifications/0.0.1366.738@0.0.1366.738" timestamp="1597463954691" />
+    <state x="368" y="0" key="#Recorder-app" timestamp="1597478219150">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="444" y="11" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1597327940001" />
-    <state x="263" y="118" key="AndroidCreateResourceFileDialog" timestamp="1597328261013">
+    <state x="368" y="0" key="#Recorder-app/0.0.1366.738@0.0.1366.738" timestamp="1597478219150" />
+    <state x="444" y="11" key="#com.intellij.ide.util.MemberChooser" timestamp="1597370365189">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="263" y="118" key="AndroidCreateResourceFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1597328261013" />
+    <state x="444" y="11" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1597370365189" />
+    <state x="263" y="118" key="AndroidCreateResourceFileDialog" timestamp="1597369502374">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="263" y="118" key="AndroidCreateResourceFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1597369502374" />
     <state x="523" y="163" key="AndroidCreateXmlResourceDialog" timestamp="1597328867385">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="523" y="163" key="AndroidCreateXmlResourceDialog/0.0.1366.738@0.0.1366.738" timestamp="1597328867385" />
-    <state width="1314" height="185" key="GridCell.Tab.0.bottom" timestamp="1597332243087">
+    <state x="413" y="68" key="FileChooserDialogImpl" timestamp="1597547101436">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1314" height="185" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1597332243087" />
-    <state width="1314" height="185" key="GridCell.Tab.0.center" timestamp="1597332243087">
+    <state x="413" y="68" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1597547101436" />
+    <state width="1314" height="125" key="GridCell.Tab.0.bottom" timestamp="1597549074058">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1314" height="185" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1597332243087" />
-    <state width="1314" height="185" key="GridCell.Tab.0.left" timestamp="1597332243087">
+    <state width="1314" height="125" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1597549074058" />
+    <state width="1314" height="125" key="GridCell.Tab.0.center" timestamp="1597549074058">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1314" height="185" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1597332243087" />
-    <state width="1314" height="185" key="GridCell.Tab.0.right" timestamp="1597332243087">
+    <state width="1314" height="125" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1597549074058" />
+    <state width="1314" height="125" key="GridCell.Tab.0.left" timestamp="1597549074057">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1314" height="185" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1597332243087" />
-    <state x="105" y="0" key="SettingsEditor" timestamp="1597313726886">
+    <state width="1314" height="125" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1597549074057" />
+    <state width="1314" height="125" key="GridCell.Tab.0.right" timestamp="1597549074058">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="105" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1597313726886" />
+    <state width="1314" height="125" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1597549074058" />
+    <state width="1314" height="322" key="GridCell.Tab.1.bottom" timestamp="1597384041625">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1314" height="322" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1597384041625" />
+    <state width="1314" height="322" key="GridCell.Tab.1.center" timestamp="1597384041625">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1314" height="322" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1597384041625" />
+    <state width="1314" height="322" key="GridCell.Tab.1.left" timestamp="1597384041625">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1314" height="322" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1597384041625" />
+    <state width="1314" height="322" key="GridCell.Tab.1.right" timestamp="1597384041625">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1314" height="322" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1597384041625" />
+    <state x="64" y="0" key="SettingsEditor" timestamp="1597463745582">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="64" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1597463745582" />
     <state x="92" y="92" width="1182" height="554" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1597150984799">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="92" y="92" width="1182" height="554" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1366.738@0.0.1366.738" timestamp="1597150984799" />
-    <state x="271" y="153" key="com.intellij.ide.util.TipDialog" timestamp="1597327318822">
+    <state x="271" y="153" key="com.intellij.ide.util.TipDialog" timestamp="1597543636495">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="271" y="153" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1597327318822" />
-    <state x="432" y="182" key="edit.logcat.filter.dialog.dimensions" timestamp="1597286820143">
+    <state x="271" y="153" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1597543636495" />
+    <state x="432" y="352" key="edit.logcat.filter.dialog.dimensions" timestamp="1597546155479">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="432" y="182" key="edit.logcat.filter.dialog.dimensions/0.0.1366.738@0.0.1366.738" timestamp="1597286820143" />
+    <state x="432" y="352" key="edit.logcat.filter.dialog.dimensions/0.0.1366.738@0.0.1366.738" timestamp="1597546155479" />
     <state x="289" y="44" width="787" height="650" key="find.popup" timestamp="1597306734946">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

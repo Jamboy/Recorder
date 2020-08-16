@@ -3,6 +3,7 @@ package com.speakin.recorder.fileview;
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.nfc.Tag;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -15,8 +16,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.speakin.recorder.R;
+import com.speakin.recorder.ui.MainActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -71,10 +74,13 @@ Log.d("file",mRecivedMsg);
                             String index = mETVItemInput.getText().toString().trim();
                             String tempPath =getFilePath(position)+"test"+"-"+index+".xlsx";
                             Log.d("jambo",tempPath);
-//                            FileDisplayActivity.show(FileViewActivity.this, tempPath);
+Toast.makeText(FileViewActivity.this,tempPath+0,Toast.LENGTH_SHORT).show();
+                            FileDisplayActivity.show(FileViewActivity.this, tempPath);
 
                         }else {
-//                            FileDisplayActivity.show(FileViewActivity.this, filePath);
+TLog.d("FVA",filePath+"00000");
+Toast.makeText(FileViewActivity.this,filePath,Toast.LENGTH_SHORT).show();
+                            FileDisplayActivity.show(FileViewActivity.this, filePath);
                         }
                     }
                 });

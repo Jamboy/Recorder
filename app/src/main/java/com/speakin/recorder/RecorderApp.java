@@ -2,6 +2,9 @@ package com.speakin.recorder;
 
 import android.app.Application;
 
+import com.speakin.recorder.fileview.ExceptionHandler;
+import com.tencent.smtt.sdk.QbSdk;
+
 /**
  * Copyright 2017 SpeakIn.Inc
  * Created by west on 2017/10/25.
@@ -17,6 +20,9 @@ public class RecorderApp extends Application {
     public void onCreate() {
         super.onCreate();
         app = this;
+        QbSdk.initX5Environment(this,null);
+        ExceptionHandler.getInstance().initConfig(this);
+
     }
 
     public String getTeamID(){
